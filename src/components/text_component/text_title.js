@@ -3,7 +3,7 @@ import { Text, View } from 'react-native'
 
 const TextTitle = ({ text }) => {
     return (
-        <Text style={{ color: '#F4A261', fontSize: 18 }}>{text}</Text>
+        <Text style={{ color: '#4E4E4E', fontSize: 18 }}>{text}</Text>
     );
 }
 
