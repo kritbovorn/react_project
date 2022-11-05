@@ -13,7 +13,6 @@ const App = () => {
   const onPress = () => increaseCount(count + 1);
   return (
 
-
     <View style={{ flex: 1 }}>
       <SafeAreaView style={{ flex: 0, backgroundColor: red }} />
       <SafeAreaView style={{ flex: 1, backgroundColor: grey }}>
@@ -23,8 +22,12 @@ const App = () => {
           <View style={{ flex: 6 }}>
 
             <View style={{ flex: 1 }}></View>
-            <View style={{ flex: 1, backgroundColor: "pink" }}>
-              <Logo />
+            <View style={{ flex: 1}}>
+              <View style={{ flex: 8 }}></View>
+              <View style={{ flex: 9 }}>
+                <Logo />
+              </View>
+              <View style={{ flex: 8 }}></View>
             </View>
             <View style={{ flex: 1 }}>
               <View style={{ flex: 1 }}></View>
