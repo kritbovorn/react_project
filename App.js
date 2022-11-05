@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { StyleSheet, SafeAreaView, StatusBar, Text, TextInput, View, TouchableHighlight } from 'react-native'
+import { StyleSheet, SafeAreaView, StatusBar, Text, TextInput, View, TouchableHighlight } from 'react-native';
+import Logo from "./src/components/svg/logo";
 import TextTitle from "./src/components/text_component/text_title";
 
 const red = "#EC1B25";
@@ -22,7 +23,9 @@ const App = () => {
           <View style={{ flex: 6 }}>
 
             <View style={{ flex: 1 }}></View>
-            <View style={{ flex: 1, backgroundColor: "pink" }}></View>
+            <View style={{ flex: 1, backgroundColor: "pink" }}>
+              <Logo />
+            </View>
             <View style={{ flex: 1 }}>
               <View style={{ flex: 1 }}></View>
               <View style={{ flex: 12 }}>
